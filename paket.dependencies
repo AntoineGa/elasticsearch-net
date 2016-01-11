@@ -36,3 +36,4 @@ group build
     nuget node.js
 	nuget npm
     nuget xunit.runner.console
+	nuget Microsoft.CodeAnalysis.CSharp framework: net45, net40

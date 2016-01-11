@@ -57,6 +57,8 @@ Target "CreateKeysIfAbsent" <| fun _ -> Sign.CreateKeysIfAbsent()
 
 Target "Version" <| fun _ -> Versioning.PatchAssemblyInfos()
 
+Target "Docs" <| fun _ -> Documentation.LitUp()
+
 Target "Release" <| fun _ -> 
     Release.PackAll()
     Sign.ValidateNugetDllAreSignedCorrectly()

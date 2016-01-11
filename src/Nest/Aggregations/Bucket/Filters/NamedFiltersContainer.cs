@@ -38,5 +38,4 @@ namespace Nest
 			Assign(name, selector?.InvokeQuery(new QueryContainerDescriptor<TOther>()));
 
 	}
-
 }

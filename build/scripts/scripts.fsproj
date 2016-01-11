@@ -8,10 +8,11 @@
     <OutputType>Library</OutputType>
     <RootNamespace>scripts</RootNamespace>
     <AssemblyName>scripts</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>scripts</Name>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +62,7 @@
   -->
   <Import Project="..\..\.paket\paket.targets" />
   <ItemGroup>
+    <None Include="Helpers.fsx" />
     <None Include="Releasing.fsx" />
     <None Include="Versioning.fsx" />
     <None Include="Projects.fsx" />
@@ -70,8 +72,8 @@
     <None Include="Building.fsx" />
     <None Include="Signing.fsx" />
     <None Include="Testing.fsx" />
-    <None Include="Documentation.fsx" />
     <None Include="Targets.fsx" />
+    <None Include="Documentation.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

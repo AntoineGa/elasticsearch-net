@@ -325,11 +325,20 @@ NUGET
     FSharp.Data (2.2.5)
       Zlib.Portable (>= 1.10.0) - framework: portable-net40+sl50+wp80+win80
     gitlink (2.2.0)
+    Microsoft.CodeAnalysis.Analyzers (1.1.0) - framework: net40, net45
+    Microsoft.CodeAnalysis.Common (1.1.1) - framework: net40, net45
+      Microsoft.CodeAnalysis.Analyzers (>= 1.1.0)
+      System.Collections.Immutable (>= 1.1.37)
+      System.Reflection.Metadata (>= 1.1.0)
+    Microsoft.CodeAnalysis.CSharp (1.1.1) - framework: net45, net40
+      Microsoft.CodeAnalysis.Common (1.1.1)
     Node.js (4.0.0)
     NoGit (0.0.9)
       Node.js (>= 0.10.26.1)
     Npm (1.4.15.2)
       Node.js (>= 0.10.26.1)
       NoGit (>= 0.0.8)
+    System.Collections.Immutable (1.1.37) - framework: net40, net45
+    System.Reflection.Metadata (1.1.0) - framework: net40, net45
     xunit.runner.console (2.1.0)
     Zlib.Portable (1.11.0) - framework: portable-net40+sl50+wp80+win80
